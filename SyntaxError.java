@@ -1,4 +1,4 @@
-package project7;
+package project8;
 
 public class SyntaxError extends Exception {
     public SyntaxError(String message) {

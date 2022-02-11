@@ -1,11 +1,8 @@
-package project7;
+package project8;
+
+import static project8.Utils.POP_D;
 
 public class PopCommand {
-    private static final String POP_D = """
-            @SP
-            AM=M-1
-            D=M
-            """;
 
     /*
     R15 = segment_address + offset

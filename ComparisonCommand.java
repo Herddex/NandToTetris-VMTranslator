@@ -1,4 +1,4 @@
-package project7;
+package project8;
 
 public class ComparisonCommand {
 

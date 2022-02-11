@@ -1,12 +1,6 @@
-package project7;
+package project8;
 
 public class PushCommand {
-    private static final String PUSH_D = """
-            @SP
-            AM=M+1
-            A=A-1
-            M=D
-            """;
 
     /*
     D = *(segment_address+offset)
@@ -64,6 +58,6 @@ public class PushCommand {
                     @THAT
                     D=M
                     """;
-                } + PUSH_D;
+                } + Utils.PUSH_D;
     }
 }

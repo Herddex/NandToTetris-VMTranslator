@@ -1,4 +1,4 @@
-package project7;
+package project8;
 
 public class BinaryOperationCommand {
     public static String translate(String commandName) throws SyntaxError {
